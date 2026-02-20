@@ -1,0 +1,43 @@
+[
+  { "id": 1,  "phase": "parked",    "text": "Request radio check",                     "image": "q1.jpg" },
+  { "id": 1,  "phase": "parked",    "text": "Parked on stand carry out radio check",                     "image": "q1.jpg" },
+  { "id": 2,  "phase": "parked",    "text": "Request departure information",                   "image": null },
+  { "id": 3,  "phase": "parked",    "text": "Req for pushback and startup",                "image": null },
+  { "id": 1,  "phase": "parked",    "text": "Request start-up clearance",                     "image": "q1.jpg" },
+  { "id": 3,  "phase": "parked",    "text": "Request pushback clearance",                "image": null },
+
+  { "id": 4,  "phase": "taxi",      "text": "Request taxi clearance",                          "image": "q2.jpg" },
+  { "id": 5,  "phase": "taxi",      "text": "You have spotted a fire tender while taxing on the second instructed taxiway take action",                "image": null },
+  { "id": 6,  "phase": "taxi",      "text": "You have spotted an aircraft taxing behind during pushback take action",     "image": null },
+
+  { "id": 7,  "phase": "departure", "text": "Request for ATC clearance",            "image": null },
+  { "id": 8,  "phase": "departure", "text": "Request to enter the assigned active runway",                    "image": null },
+  { "id": 9,  "phase": "departure", "text": "Inform that you are go for takeoff to the ATC and take permission",          "image": null },
+
+  { "id": 10, "phase": "enroute",   "text": "Request filed flight level",                            "image": null },
+  { "id": 10, "phase": "enroute",   "text": "Request change of flight level",                            "image": null },
+  { "id": 10, "phase": "enroute",   "text": "Request climb to desired FL",                            "image": null },
+  { "id": 11, "phase": "enroute",   "text": "You have weather to your left and right take action",                     "image": null },
+  { "id": 12, "phase": "enroute",   "text": "You have noticed one altimeter not working properly take action inform ATC ",                 "image": null },
+  { "id": 10, "phase": "enroute",   "text": "You are at BUKLO then, Est TOKIM , Est XOPOX give position report with active activity time , you can use hypothetical",                            "image": "q10.jpeg" },
+  { "id": 10, "phase": "enroute",   "text": "At LKN wx normal 1205 Fl360 Est BBN 123 then GGC give position report with active hypothetical time",                            "image": null },
+  { "id": 10, "phase": "enroute",   "text": "Relay message for ifly 2449 W137 FL140 Est IPANO 0600 Est DUKUM 0630 ETA IMPHAL 0700",                            "image": null },
+  { "id": 10, "phase": "enroute",   "text": "Indian Air Force fighter jet crossed 500m below you. RA take action",                            "image": null },
+  { "id": 10, "phase": "enroute",   "text": "Request for descent clearance",                            "image": null },
+
+  { "id": 13, "phase": "emergency", "text": "Suddenly you have noticed port engine is on fire take action ",               "image": null },
+  { "id": 13, "phase": "emergency", "text": "One PAX medicall ill take action ",               "image": null },
+  { "id": 13, "phase": "emergency", "text": "You noticed engine vibration take action ",               "image": null },
+  { "id": 13, "phase": "emergency", "text": "Entered CB loosing altitude rapidly take action ",               "image": null },
+  { "id": 13, "phase": "emergency", "text": "Fuel onboard critically low take action  ",               "image": null },
+  { "id": 13, "phase": "emergency", "text": "FO incapacitated take action ",               "image": null },
+  { "id": 14, "phase": "emergency", "text": "One person onboard behaving violently, threatning of having a weapon, possible hijack , take action.",                        "image": null },
+  { "id": 14, "phase": "emergency", "text": "Request immediate descent",                        "image": null },
+  { "id": 15, "phase": "emergency", "text": "One passenger has fallen sick take action, position can be hypothetical along the destination",                      "image": null },
+
+  { "id": 16, "phase": "arrival",   "text": "report finals",                   "image": null },
+  { "id": 16, "phase": "arrival",   "text": "you are on downaind inform this to ATC",                   "image": null },
+  { "id": 16, "phase": "arrival",   "text": "You are on the runway and you have instructions to taxi to apron, the atc tells you to exit the runway and inform him, inform the ATC",                   "image": null },
+  { "id": 17, "phase": "arrival",   "text": "you have landed contact ATC ",                       "image": null }
+  
+]
