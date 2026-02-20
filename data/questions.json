@@ -36,6 +36,8 @@
   { "id": 15, "phase": "emergency", "text": "One passenger has fallen sick take action, position can be hypothetical along the destination",                      "image": null },
 
   { "id": 16, "phase": "arrival",   "text": "report finals",                   "image": null },
+  { "id": 16, "phase": "arrival",   "text": "you are on downaind inform this to ATC",                   "image": null },
+  { "id": 16, "phase": "arrival",   "text": "You are on the runway and you have instructions to taxi to apron, the atc tells you to exit the runway and inform him, inform the ATC",                   "image": null },
   { "id": 17, "phase": "arrival",   "text": "you have landed contact ATC ",                       "image": null }
   
 ]
