@@ -5,6 +5,43 @@
   <title>AIVR      DGCA RTR PART 2</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+  <script>
+/* Disable right click */
+document.addEventListener("contextmenu", e => e.preventDefault(), { capture:true });
+
+/* Disable text selection */
+document.addEventListener("selectstart", e => e.preventDefault(), { capture:true });
+
+/* Disable drag */
+document.addEventListener("dragstart", e => e.preventDefault(), { capture:true });
+
+/* Block common DevTools shortcuts */
+document.addEventListener("keydown", e => {
+  const k = e.key.toUpperCase();
+
+  if (
+    k === "F12" ||
+    (e.ctrlKey && e.shiftKey && ["I","J","C","K"].includes(k)) ||
+    (e.ctrlKey && ["U","S","P"].includes(k)) ||
+    (e.metaKey && e.altKey && ["I"].includes(k))   // Mac combos
+  ) {
+    e.preventDefault();
+    e.stopPropagation();
+    return false;
+  }
+}, true);
+
+/* Detect DevTools open (deterrent only) */
+setInterval(() => {
+  const threshold = 160;
+  if (
+    window.outerWidth - window.innerWidth > threshold ||
+    window.outerHeight - window.innerHeight > threshold
+  ) {
+    document.body.innerHTML = "";
+  }
+}, 1000);
+</script>
 <body>
 
 <!-- BRAND HEADER -->
