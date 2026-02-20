@@ -211,3 +211,27 @@ button {
 .hidden {
   display: none;
 }
+
+
+/* =========================
+   PANEL DATA SCALING (+20%)
+   ========================= */
+
+#flight-info,
+#aircraft-info,
+#frequencies,
+#weather {
+  font-size: 18px;        /* was visually ~15px */
+  line-height: 1.9;
+  font-weight: 600;
+}
+
+/* Headings inside panels */
+
+#flight-info b,
+#aircraft-info b,
+#frequencies b,
+#weather b {
+  font-size: 1.2em;       /* scales 20% relative */
+  font-weight: 700;
+}
