@@ -16,7 +16,7 @@
   { "id": 10, "phase": "enroute",   "text": "Request filed flight level",                            "image": null },
   { "id": 11, "phase": "enroute",   "text": "You have weather to your left and right take action",                     "image": null },
   { "id": 12, "phase": "enroute",   "text": "You have noticed one altimeter not working properly take action inform ATC ",                 "image": null },
-  { "id": 10, "phase": "enroute",   "text": "You are at BUKLO then, Est TOKIM , Est XOPOX give position report with active activity time , you can use hypothetical",                            "image": q10.jpeg },
+  { "id": 10, "phase": "enroute",   "text": "You are at BUKLO then, Est TOKIM , Est XOPOX give position report with active activity time , you can use hypothetical",                            "image": "q10.jpeg" },
 
   { "id": 13, "phase": "emergency", "text": "Suddenly you have noticed port engine is on fire take action ",               "image": null },
   { "id": 14, "phase": "emergency", "text": "Request immediate descent",                        "image": null },
