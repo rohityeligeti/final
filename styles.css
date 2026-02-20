@@ -1,0 +1,213 @@
+/* =========================
+   GLOBAL
+   ========================= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1e293b;
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+/* =========================
+   BRAND HEADER
+   ========================= */
+
+#brand-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+
+  background: #0ea5e9;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 22px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  z-index: 1000;
+}
+
+#brand-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+#brand-founder {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.95;
+}
+
+#brand-founder strong {
+  font-weight: 800;
+}
+
+
+/* =========================
+   MAIN GRID
+   ========================= */
+
+#app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  margin-top: 56px;
+  height: calc(100vh - 56px);
+
+  gap: 14px;
+  padding: 14px;
+}
+
+
+/* =========================
+   PANELS
+   ========================= */
+
+.panel {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  overflow: auto;
+}
+
+.subpanel {
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 16px 18px;
+
+  line-height: 1.8;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+/* =========================
+   SPLIT PANELS
+   ========================= */
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  height: 100%;
+}
+
+
+/* =========================
+   IMAGE
+   ========================= */
+
+#question-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+/* =========================
+   QUESTION AREA
+   ========================= */
+
+#question-text {
+  font-size: 22px;
+  line-height: 1.7;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+
+/* =========================
+   TIMER
+   ========================= */
+
+#timer {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0ea5e9;
+  margin-bottom: 22px;
+}
+
+
+/* =========================
+   HEADINGS
+   ========================= */
+
+h2, h3 {
+  margin: 0 0 22px 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 14px 22px;
+
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.primary-btn {
+  background: #0ea5e9;
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #0284c7;
+}
+
+.secondary-btn {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.secondary-btn:hover {
+  background: #cbd5f5;
+}
+
+
+/* =========================
+   CONTROLS
+   ========================= */
+
+.controls {
+  margin-top: 30px;
+}
+
+.controls button {
+  margin-right: 12px;
+}
+
+
+/* =========================
+   UTILITIES
+   ========================= */
+
+.hidden {
+  display: none;
+}

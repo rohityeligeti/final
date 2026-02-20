@@ -1,0 +1,28 @@
+[
+  { "id": 1,  "phase": "parked",    "text": "Request radio check",                     "image": "q1.jpg" },
+  { "id": 2,  "phase": "parked",    "text": "Request departure information",                   "image": null },
+  { "id": 3,  "phase": "parked",    "text": "Req for pushback and startup",                "image": null },
+  { "id": 1,  "phase": "parked",    "text": "Request start-up clearance",                     "image": "q1.jpg" },
+  { "id": 3,  "phase": "parked",    "text": "Request pushback clearance",                "image": null },
+
+  { "id": 4,  "phase": "taxi",      "text": "Request taxi clearance",                          "image": "q2.jpg" },
+  { "id": 5,  "phase": "taxi",      "text": "You have spotted a fire tender while taxing on the second instructed taxiway take action",                "image": null },
+  { "id": 6,  "phase": "taxi",      "text": "You have spotted an aircraft taxing behind during pushback take action",     "image": null },
+
+  { "id": 7,  "phase": "departure", "text": "Request for ATC clearance",            "image": null },
+  { "id": 8,  "phase": "departure", "text": "Request to enter the assigned active runway",                    "image": null },
+  { "id": 9,  "phase": "departure", "text": "Inform that you are go for takeoff to the ATC and take permission",          "image": null },
+
+  { "id": 10, "phase": "enroute",   "text": "Request filed flight level",                            "image": null },
+  { "id": 11, "phase": "enroute",   "text": "You have weather to your left and right take action",                     "image": null },
+  { "id": 12, "phase": "enroute",   "text": "You have noticed one altimeter not working properly take action inform ATC ",                 "image": null },
+  { "id": 10, "phase": "enroute",   "text": "You are at BUKLO then, Est TOKIM , Est XOPOX give position report with active activity time , you can use hypothetical",                            "image": null },
+
+  { "id": 13, "phase": "emergency", "text": "Suddenly you have noticed port engine is on fire take action ",               "image": null },
+  { "id": 14, "phase": "emergency", "text": "Request immediate descent",                        "image": null },
+  { "id": 15, "phase": "emergency", "text": "One passenger has fallen sick take action, position can be hypothetical along the destination",                      "image": null },
+
+  { "id": 16, "phase": "arrival",   "text": "report finals",                   "image": null },
+  { "id": 17, "phase": "arrival",   "text": "you have landed contact ATC ",                       "image": null }
+  
+]

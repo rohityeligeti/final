@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AIVR DGCA RTR PART 2</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- BRAND HEADER -->
+<div id="brand-bar">
+  <div id="brand-title">AIVR DGCA RTR PART 2  BETA 1.0 </div>
+  <div id="brand-founder">
+    Founded by <strong>@rohit.pilot</strong>
+  </div>
+</div>
+
+<div id="app">
+
+  <!-- IMAGE PANEL -->
+  <div class="panel">
+    <img id="question-image" src="" alt="Question Visual" />
+  </div>
+
+  <!-- INFO PANEL -->
+  <div class="panel">
+    <div class="split">
+      <div class="subpanel" id="flight-info"></div>
+      <div class="subpanel" id="aircraft-info"></div>
+    </div>
+  </div>
+
+  <!-- QUESTION SELECTOR / EXAM -->
+  <div class="panel">
+    <div id="pre-exam">
+      <h3 id="phase-title"></h3>
+      <div id="question-selector"></div>
+    </div>
+
+    <div id="exam-area" class="hidden">
+      <div id="timer">30:00</div>
+      <div id="question-text"></div>
+      <div class="controls">
+        <button id="skip-btn" class="secondary-btn">Skip</button>
+        <button id="next-btn" class="primary-btn">Next</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- AUX PANEL -->
+  <div class="panel">
+    <div class="split">
+      <div class="subpanel" id="frequencies"></div>
+      <div class="subpanel" id="weather"></div>
+    </div>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
