@@ -247,3 +247,9 @@ button {
 #brand-founder a:hover {
   text-decoration: underline;
 }
+* {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
