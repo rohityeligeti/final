@@ -235,3 +235,15 @@ button {
   font-size: 1.2em;       /* scales 20% relative */
   font-weight: 700;
 }
+#brand-founder a {
+  color: white;
+  text-decoration: none;
+}
+
+#brand-founder a:visited {
+  color: white;
+}
+
+#brand-founder a:hover {
+  text-decoration: underline;
+}
